@@ -1,5 +1,5 @@
 syntax = "proto3";
-package chat/v1;
+package chat.v1;
 option go_package = "/chat";
 
 message Message {
