@@ -1,4 +1,4 @@
-package search.v1
+package searchTest
 
 
 //easyjson:json
