@@ -23,7 +23,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>org.shobhit</id>
       <name>hotelsProto</name>
-      <url>http://org/shobhit</url>
+      <url>https://github.com/ShobhitTripathi/grpc_proto.git</url>
       <layout>default</layout>
     </repository>
 </distributionManagement>
