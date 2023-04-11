@@ -18,15 +18,13 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   
-  <distributionManagement>
+<distributionManagement>
     <repository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>org.shobhit</id>
-      <name>hotelsProto</name>
-      <url>https://github.com/ShobhitTripathi/grpc_proto.git</url>
-      <layout>default</layout>
+      <id>ossrh</id>
+      <name>Central Repository OSSRH</name>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
-</distributionManagement>
+  </distributionManagement>
 
   <dependencies>
     <dependency>
