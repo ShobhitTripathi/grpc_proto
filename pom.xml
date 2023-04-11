@@ -23,7 +23,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>org.shobhit</id>
       <name>hotelsProto</name>
-      <url>scp://repo/maven2</url>
+      <url>http://org/shobhit</url>
       <layout>default</layout>
     </repository>
 </distributionManagement>
