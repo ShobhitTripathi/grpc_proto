@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.example</groupId>
-  <artifactId>GrpcClientSide</artifactId>
+  <groupId>org.shobhit</groupId>
+  <artifactId>hotelsproto</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <name>GrpcClientSide</name>
@@ -40,37 +40,4 @@
       <version>1.3.2</version>
     </dependency>
   </dependencies>
-
-  <build>
-    <extensions>
-      <extension>
-        <groupId>kr.motd.maven</groupId>
-        <artifactId>os-maven-plugin</artifactId>
-        <version>1.6.2</version>
-      </extension>
-    </extensions>
-    <plugins>
-      <plugin>
-        <groupId>com.github.os72</groupId>
-        <artifactId>protoc-jar-maven-plugin</artifactId>
-        <version>3.6.0.1</version>
-        <executions>
-          <execution>
-            <phase>generate-sources</phase>
-            <goals>
-              <goal>run</goal>
-            </goals>
-            <configuration>
-              <protocVersion>3.6.0</protocVersion>
-              <includeStdTypes>true</includeStdTypes>
-              <inputDirectories>
-                <include>src/main/proto</include>
-              </inputDirectories>
-              <outputDirectory>src/main/generated</outputDirectory>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
 </project>
